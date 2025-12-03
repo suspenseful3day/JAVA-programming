@@ -24,7 +24,7 @@ public class Homework9 {
             fileScanner.close();
 
         } catch (FileNotFoundException e) {
-            System.out.println("⚠️ 오류: " + filename + " 파일을 찾을 수 없습니다. 프로그램이 종료됩니다.");
+            System.out.println("오류: " + filename + " 파일을 찾을 수 없습니다. 프로그램이 종료됩니다.");
             return null;
         }
 
@@ -64,4 +64,5 @@ public class Homework9 {
         }
         sc.close();
     }
+
 }
