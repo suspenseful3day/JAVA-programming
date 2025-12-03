@@ -64,5 +64,4 @@ public class Homework9 {
         }
         sc.close();
     }
-
 }
